@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Comic Display</title>
+    <!--To create a responsive website, add the following <meta> tag to all your web pages-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+<div class="page">
+     <div class = "voice">
+ <audio controls >
+  <source src="sad.mpeg" type="audio/mpeg">
+
+Your browser does not support the audio element.
+</audio>
+    </div>
+
+<div class="image">
+    <img src="image/panel7.png">
+</div>
+<div class="navigation">
+    <div class = "transit">
+    <a href="panel6.html" class = "prev-link" onclick="handlePageTransition(event)">
+        <img class = "left" src ="image/prev.png" width="100px" >
+    </a>
+    <a href="panel-loop.html" class = "next-link" onclick="handlePageTransition(event)">
+        <img class="right" src="image/next.png" width="100px" >
+    </a>
+
+    </div>
+
+</div>
+
+</div>
+</div>
+</body>
+
+</html>
